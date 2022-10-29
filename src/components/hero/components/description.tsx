@@ -1,4 +1,5 @@
 import { animated, useSpring } from "react-spring";
+import { heroData } from "../hero.data";
 
 const Description = () => {
   const styles = useSpring({
@@ -12,11 +13,7 @@ const Description = () => {
       className="max-w-2xl text-lg text-light-gray-80 dark:text-dark-slate-80"
       style={styles}
     >
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est
-      sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-      mollit. Exercitation veniam consequat sunt nostrud amet.
+      {heroData.description}
     </animated.p>
   );
 };

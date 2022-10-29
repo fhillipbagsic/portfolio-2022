@@ -15,7 +15,7 @@ const Image = ({ appear }: ImageProps) => {
     <animated.img
       src={image}
       alt="profile"
-      className=" w-60 h-60 object-contain rounded-full"
+      className=" w-60 h-60 object-contain rounded-full grayscale hover:grayscale-0"
       style={styles}
     />
   );

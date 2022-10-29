@@ -6,6 +6,7 @@ import ThemeChanger from "./components/themechanger";
 import navs from "./nav.data";
 import { StateContext } from "../app/StateContext";
 import NavDrawer from "./components/navdrawer";
+import Resume from "./components/resume";
 
 const Nav = () => {
   const { darkMode, isDrawerOpen } = useContext(StateContext);
@@ -80,6 +81,7 @@ const Nav = () => {
       </ul>
       <div className="flex flex-row gap-3 items-center">
         <NavDrawer />
+        <Resume />
         <ThemeChanger />
       </div>
       <div

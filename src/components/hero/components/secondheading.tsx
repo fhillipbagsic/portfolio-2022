@@ -1,4 +1,5 @@
 import { animated, useSpring } from "react-spring";
+import { heroData } from "../hero.data";
 
 const SecondHeading = () => {
   const styles = useSpring({
@@ -12,7 +13,7 @@ const SecondHeading = () => {
       className=" font-bold text-4xl text-light-gray-50 dark:text-dark-slate-50"
       style={styles}
     >
-      Lorem ipsum it dolor
+      {heroData.secondHeading}
     </animated.p>
   );
 };

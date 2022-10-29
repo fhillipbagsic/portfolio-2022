@@ -15,7 +15,9 @@ const Link = ({ social, username, link }: LinkInterface) => {
       {social === "email" && icons["email"]}
       {social === "linkedin" && icons["linkedin"]}
       {social === "github" && icons["github"]}
-      <a href={link}>{username}</a>
+      <a href={link} target="_blank" rel="noreferrer">
+        {username}
+      </a>
     </li>
   );
 };

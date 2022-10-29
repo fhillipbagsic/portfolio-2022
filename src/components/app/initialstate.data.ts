@@ -1,7 +1,7 @@
 import { StateInterface } from "./state.interface";
 
 const initialState: StateInterface = {
-  darkMode: false,
+  darkMode: true,
   isDrawerOpen: false,
 };
 

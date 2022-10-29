@@ -1,4 +1,6 @@
 import ProjectInterface from "../project.interface";
+import { FiGithub } from "react-icons/fi";
+import { BsLink45Deg } from "react-icons/bs";
 
 const MainProject = ({
   type,
@@ -36,19 +38,33 @@ const MainProject = ({
           <p className="text-sm text-light-gray-80 dark:text-dark-slate-80">
             Built using
           </p>
-          <ul className="flex flex-row flex-wrap gap-3 font-jet text-sm text-light-emerald-100 dark:text-dark-emerald-100">
+          <ul
+            className={`flex flex-row ${
+              reverse && "justify-end"
+            } flex-wrap gap-3 font-jet text-sm text-light-emerald-100 dark:text-dark-emerald-100`}
+          >
             {stack.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
         </div>
+        <div className="flex flex-row items-center text-light-emerald-100 dark:text-dark-emerald-100 ">
+          <a href={sourceCode} target="_blank" rel="noreferrer">
+            <FiGithub className="w-5 h-5 mr-1 cursor-pointer" />
+          </a>
+          <a href={link} target="_blank" rel="noreferrer">
+            <BsLink45Deg className="w-7 h-7 cursor-pointer" />
+          </a>
+        </div>
       </div>
       <div className="relative md:w-1/2 md:h-72 h-52 w-full shadow-lg">
-        <img
-          src={image}
-          alt="project"
-          className="object-cover bg-no-repeat w-full h-full rounded-md grayscale hover:grayscale-0 cursor-pointer"
-        />
+        <a href={link} target="_blank" rel="noreferrer">
+          <img
+            src={image}
+            alt="project"
+            className="object-cover bg-no-repeat w-full h-full rounded-md grayscale hover:grayscale-0 cursor-pointer"
+          />
+        </a>
       </div>
     </div>
   );

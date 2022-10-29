@@ -2,37 +2,31 @@ import PositionInterface from "./position.interface";
 
 const positions: PositionInterface[] = [
   {
-    position: "Technical Support",
-    company: "Orient Overseas Container Lines",
-    duration: "December 2021 - February 2022",
-    descriptions: [
-      "1Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-      "2Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-
-      "3Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    ],
-  },
-  {
-    position: "Software Application Developer",
-    company: "Orient Overseas Container Lines",
-    duration: "March 2022 - June - 2022",
-    descriptions: [
-      "1Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-      "2Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-
-      "3Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    ],
-  },
-  {
-    position: "Freelance Web Developer",
+    position: "Freelance Developer",
     company:
       "National University College of Computing and Information Technology",
     duration: "July 2022 - September 2022",
     descriptions: [
-      "4Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-      "5Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-
-      "6Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "Developed an information system application along with a team for a local government agency using MERN stack",
+      "Built a backend server for a mood tracker and daily journal application using Express.",
+    ],
+  },
+  {
+    position: "Application Software Developer Intern",
+    company: "Orient Overseas Container Lines",
+    duration: "March 2022 - May 2022",
+    descriptions: [
+      "Identified and examined code errors in the existing system that caused production issues.",
+      "Developed an internal training monitoring application with the team that monitors the training status of the trainee.",
+    ],
+  },
+  {
+    position: "Technical Support Intern",
+    company: "Orient Overseas Container Lines",
+    duration: "December 2021 - February 2022",
+    descriptions: [
+      "Investigated and solved trouble tickets that are mission-critical to the company’s daily operation.",
+      "Collaborated with product owners and business analysts to perform logic investigation of existing applications to resolve business processes issues.",
     ],
   },
 ];

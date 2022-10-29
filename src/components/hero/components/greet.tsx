@@ -1,4 +1,5 @@
 import { animated, useSpring } from "react-spring";
+import { heroData } from "../hero.data";
 
 const Greet = () => {
   const styles = useSpring({
@@ -15,7 +16,7 @@ const Greet = () => {
       className="font-jet font-bold  text-light-emerald-100 dark:text-dark-emerald-100"
       style={styles}
     >
-      Kamusta!
+      {heroData.greeting}
     </animated.p>
   );
 };
