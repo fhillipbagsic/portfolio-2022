@@ -3,5 +3,5 @@ export const heroData = {
   firstHeading: "I am Fhillip Bagsic.",
   secondHeading: "An Aspiring Web Developer.",
   description:
-    "I am currently doing some freelance and personal web projects while seeking for a remote Web Developer / Software Engineer jobs.",
+    "I am currently doing some freelance and personal web projects while seeking for a Web Developer / Software Engineer jobs.",
 };

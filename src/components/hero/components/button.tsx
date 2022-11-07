@@ -3,7 +3,7 @@ import { animated, useSpring } from "react-spring";
 
 const Button = () => {
   const styles = useSpring({
-    delay: 1200,
+    delay: 1400,
     to: {
       y: 0,
       opacity: 1,

@@ -10,7 +10,7 @@ const ThemeChanger = () => {
   const styles = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
-    delay: 800,
+    delay: 900,
   });
 
   function handleSwitchMode() {

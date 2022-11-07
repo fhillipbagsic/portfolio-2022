@@ -16,8 +16,8 @@ const Description = ({ appear }: DescriptionProps) => {
       className=" text-light-gray-80 dark:text-dark-slate-80 max-w-lg"
       style={styles}
     >
-      As i am currently seeking for a remote job, please feel free to contact me
-      if you are interested. Below are the handles that you can use to send me a
+      As i am currently seeking for a job, please feel free to contact me if you
+      are interested. Below are the handles that you can use to send me a
       message.
     </animated.p>
   );

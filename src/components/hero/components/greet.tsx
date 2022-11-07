@@ -3,7 +3,7 @@ import { heroData } from "../hero.data";
 
 const Greet = () => {
   const styles = useSpring({
-    delay: 800,
+    delay: 1000,
     to: {
       opacity: 1,
       y: 0,

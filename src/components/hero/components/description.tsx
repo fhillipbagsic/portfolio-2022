@@ -3,7 +3,7 @@ import { heroData } from "../hero.data";
 
 const Description = () => {
   const styles = useSpring({
-    delay: 1100,
+    delay: 1300,
     to: { opacity: 1, y: 0 },
     from: { opacity: 0, y: 0 },
   });

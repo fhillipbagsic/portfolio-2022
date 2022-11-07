@@ -3,7 +3,7 @@ import { heroData } from "../hero.data";
 
 const FirstHeading = () => {
   const styles = useSpring({
-    delay: 900,
+    delay: 1100,
     to: { opacity: 1, y: 0 },
     from: { opacity: 0, y: 0 },
   });
