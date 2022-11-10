@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <animated.a
       style={styles}
-      href="https://res.cloudinary.com/desimscj8/image/upload/v1667893862/myresume/Bagsic-Resume_tso8ky.pdf"
+      href="https://res.cloudinary.com/desimscj8/image/upload/v1668070887/myresume/Bagsic_-_Resume_tjfgml.pdf"
       target="_blank"
       rel="noreferrer"
       className="text-light-emerald-100 dark:text-dark-emerald-100 font-jet capitalize border-2 py-1 px-3 rounded text-sm"

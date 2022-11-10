@@ -7,7 +7,15 @@ const skills: SkillsInterface[] = [
   },
   {
     skill: "Programming Languages",
-    skills: ["JavaScript", "Typescript", "Python", "Java", "HTML5", "CSS3"],
+    skills: [
+      "JavaScript",
+      "Typescript",
+      "Python",
+      "Java",
+      "SQL",
+      "HTML5",
+      "CSS3",
+    ],
   },
   { skill: "Tools", skills: ["Git/GitHub", "Figma", "Tailwind"] },
 ];
